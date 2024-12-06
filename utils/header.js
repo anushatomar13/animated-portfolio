@@ -8,7 +8,7 @@ const header = {
         { title: 'Experience', id: 'experience' },
         { title: 'My Work', id: 'my-work' },
         { title: 'Reviews', id: 'reviews' },
-        { title: 'Certifications', id: 'certifications' },
+        { title: 'My Technical Blogs', id: 'blogs' },
         // { title: 'Contribution', id: 'contributions' },
         { title: 'Contact', id: 'contact' },
     ],
@@ -17,8 +17,8 @@ const header = {
         onClick: () => openLink('assets/cv.pdf')
     },
     logo: {
-        src: '/assets/profile.jpg',
-        alt: 'afzalimdad9'
+        src: '/assets/profile.png',
+        alt: 'anushatomar'
     },
     handleIconClick: () => scrollTo('home'),
     handleItemSelect: (menu) => scrollTo(menu.id),

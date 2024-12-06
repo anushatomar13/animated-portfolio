@@ -10,14 +10,14 @@ const nextConfig = {
     images: {
       loader: 'imgix',
       path: 'public/assets/portfolio.gif',
-      unoptimized: true,
+      unoptimized: true, // This disables the image optimization API
     },
   },
   pwa: {
     dest: "public",
     runtimeCaching,
   },
-  output: "export"
-}
+  // output: 'export' // Uncomment this only if you need static export
+};
 
 module.exports = withPWA(nextConfig);

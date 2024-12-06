@@ -1,55 +1,37 @@
 import { openLink } from "./methods"
 
 const certifications = {
-    heading:  `Licenses & certifications`,
+    heading:  `My Technical Blogs`,
     list: [
         {
             size: 1,
-            title: 'DevOps on AWS Specialization',
-            platform: 'Coursera',
+            title: <a href="https://difference-between-cjs-and-esm.hashnode.dev/javascript-modules-explained-commonjs-vs-esm-a-beginners-guide" target="_blank" rel="noopener noreferrer">JavaScript Modules Explained: CommonJS vs ESM</a>,
+            platform: <a href="https://difference-between-cjs-and-esm.hashnode.dev/javascript-modules-explained-commonjs-vs-esm-a-beginners-guide" target="_blank" rel="noopener noreferrer">Read more</a>,
             link: '',
-            date: 'Issued Sep 2022 · No Expiration Date',
+            date: '',
             logo: '/assets/aws.png',
             aos: 'zoom-out-left'
         },
         {
             size: 1,
-            title: 'Docker for absolute beginners',
-            platform: 'Coursera',
+            title: <a href="https://difference-between-cjs-and-esm.hashnode.dev/cookies-and-sessions-everything-you-need-to-know">Cookies and Sessions: Everything You Need to Know!</a>,
+            platform: <a href="https://difference-between-cjs-and-esm.hashnode.dev/cookies-and-sessions-everything-you-need-to-know" target="_blank" rel="noopener noreferrer">Read more</a>,
             link: '',
-            date: 'Issued Sep 2022 · No Expiration Date',
+            date: '',
             logo: '/assets/docker.png',
             aos: 'zoom-out-right'
         },
         {
             size: 1,
-            title: 'AWS Cloud Technical Essentials',
-            platform: 'Coursera',
+            title: <a href="https://difference-between-cjs-and-esm.hashnode.dev/promises-asyncawait-and-other-ways-to-lose-your-mind">Promises, Async/Await, and Other Ways to Lose Your Mind</a>,
+            platform: <a href="https://difference-between-cjs-and-esm.hashnode.dev/promises-asyncawait-and-other-ways-to-lose-your-mind" target="_blank" rel="noopener noreferrer">Read more</a>,
             link: '',
-            date: 'Issued Aug 2022 · No Expiration Date',
+            date: '',
             logo: '/assets/aws.png',
             aos: 'zoom-out-left'
-        },
-        {
-            size: 1,
-            title: 'Certified Mobile and Web App Developer',
-            platform: 'SMIT | Saylani Mass IT Training',
-            link: '',
-            date: 'Issued Feb 2019 · No Expiration DateIssued',
-            logo: '/assets/smit.png',
-            aos: 'zoom-out-right'
-        },
-        {
-            size: 2,
-            title: 'Hackathon on creating OLX App using PWA Development',
-            platform: 'SMIT | Saylani Mass IT Training',
-            link: '',
-            date: 'Issued Jul 2018 · No Expiration Date',
-            logo: '/assets/smit.png',
-            aos: 'zoom-out-left'
-        },
+        }
     ],
     handleIconClick: openLink
 }
 
-export default certifications
+export default certifications;

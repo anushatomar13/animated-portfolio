@@ -1,6 +1,7 @@
 @import "./theme.scss";
 
 .ai-myself {
+  font-size: large;
   width: 100vw;
 
   .ai-myself-settings-icon {
@@ -27,15 +28,16 @@
     padding: 100px 0 100px 0;
 
     .ai-myself-paragraph {
+
       margin: 0px 0px 15px;
-      font-size: 16px;
+      font-size: 25px;
       line-height: 24px;
       color: $themeColor3;
     }
 
     .ai-myself-skill {
       color: $themeColor4;
-      font-size: 12px;
+      font-size: 20px;
       margin-bottom: 10px;
       line-height: 24px;
 

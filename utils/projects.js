@@ -3,58 +3,41 @@ const projects = {
     list: [
         {
             image: '/assets/projects/PIAIC.png',
-            label: 'Featured Project',
-            title: 'PIAIC Web/Portal',
-            description: 'The mission of PIAIC is to reshape Pakistan by revolutionizing education, research, and business by adopting latest, cutting-edge technologies.',
+            label: '',
+            title: 'Sukoon - A Mental Wellness Platform',
+            description: 'Collaboratively built Sukoon, a mental wellness platform, in a team of 5 members using ReactJS, Tailwind CSS, Gemini API, Hume AI API, and Node.js. I served as a frontend developer, AI developer, and project manager. The platform stands out with 5 unique features: an AI-based dream analyzer, an AI virtual therapist with an empathetic voice, a blog section, digital detoxification, and a dedicated section for the mental wellness of students. It was tested by over 100+ users from different age groups and received positive feedback.',
             techs: [
+                'HTML',
                 'React Js',
-                'Express Js',
-                'Mongodb',
-            ]
-        },
-        {
-            image: '/assets/projects/digitalplattform.png',
-            label: 'Featured Project',
-            title: 'Digital Plattform',
-            description: 'A Platform that offers everything from marketing strategy and solving technical challenges to content creation for social media',
-            techs: [
-                'React Js',
-                'Express Js',
-                'GraphQl/Apollo',
-                'Mongodb',
-            ]
+                'Tailwind CSS',
+                'Botpress',
+            ],
+            link: 'https://website-sukoon-v1.vercel.app/' // Add your project link
         },
         {
             image: '/assets/projects/declinica.png',
-            label: 'Featured Project',
-            title: 'Declinica',
-            description: 'A Decentralised blockchain Designed for the medical community.',
+            label: '',
+            title: 'Stamprino',
+            description: 'Developed a platform with features like 3D stamp visualization, a creative stamp generator, buy/sell stamps, and an engaging community forum. I worked as a frontend developer on this project.',
             techs: [
+                'HTML',
                 'React Js',
-                'Web3 Js',
-            ]
+                'Tailwind CSS',
+                'Botpress',
+            ],
+            link: 'https://stamprino.vercel.app/' // Add your project link
         },
         {
-            image: '/assets/projects/rolazdoro.png',
-            label: 'Featured Project',
-            title: `Rolaz D'oro`,
-            description: `One of the main objective of Rolaz D'ORO is to make gold easily accessible to even small investors in a trusted and secure environment, with the peace of mind that their investments are traceable and could be claimed at any stated time.`,
+            image: '/assets/projects/aiaudio.png',
+            label: 'AI Audio Summarizer',
+            description: 'Built a user-friendly audio summarization web app with Streamlit and Google’s LLM-powered Gemini API, where users upload audio, and get concise text summaries. It has a response time of less than 10 seconds.',
             techs: [
-                'React Js',
-                'Web3 Js',
-            ]
-        },
-        {
-            image: '/assets/projects/chainracers.png',
-            label: 'Featured Project',
-            title: `Chainracers`,
-            description: `ChainRacers is a play-to-earn NFT Race Battle Game. The GammaVerse, our growing MetaVerse featuring characters, worlds, arenas, and more, will kick things off with 8,888 unique generative NFT sets. Each set will include a NFT Racer and NFT Rider.`,
-            techs: [
-                'React Js',
-                'Web3 Js',
-            ]
+                'Streamlit',
+                'Gemini API',
+            ],
+            link: 'https://echosummarize.streamlit.app/' // Add your project link
         }
     ]
 }
 
-export default projects
+export default projects;

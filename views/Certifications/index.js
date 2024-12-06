@@ -3,15 +3,12 @@ import PropTypes from 'prop-types'
 import ViewsTitle from '../../components/ViewsTitle'
 import Share from '../../components/SVGs/Share'
 
+
 const SingleItem = ({ logo, title, link, date, platform, handleIconClick }) => (
     <div className='ai-item-body p-4'>
         <div className='ai-item-head'>
-            <div
-                style={{
-                    backgroundImage: `url(${logo})`,
-                }}
-                className='ai-item-logo'>
-
+            <div className='ai-item-logo'>
+                <img src={logo} alt={title} className='cert-logo-image' />
             </div>
             <div className='ai-item-share'>
                 {link && (
@@ -30,28 +27,20 @@ const SingleItem = ({ logo, title, link, date, platform, handleIconClick }) => (
 const Items = ({ list, handleIconClick }) => (
     <div className='row'>
         {(list || []).map((item, i) => (
-            <div data-aos={item.aos} key={i} className={`ai-certifications-item m-0 p-1
-            col-12 col-lg-${item.size * 4}`}
-            >
+            <div data-aos={item.aos} key={i} className={`ai-certifications-item m-0 p-1 col-12 col-lg-${item.size * 4}`}>
                 <SingleItem {...item} handleIconClick={handleIconClick} />
             </div>
         ))}
     </div>
 )
 
-const Certifications = ({ data: {
-    heading,
-    list,
-    handleIconClick
-} }) => {
+const Certifications = ({ data: { heading, list, handleIconClick } }) => {
     return (
         <div className='ai-certifications'>
             <div className='container p-3'>
                 <div className='ai-certifications-top-background' />
                 <div className='ai-certifications-container'>
-                    <ViewsTitle
-                        text={heading}
-                    />
+                    <ViewsTitle text={heading} />
                     <div>
                         <Items list={list} handleIconClick={handleIconClick} />
                     </div>

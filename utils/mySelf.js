@@ -2,42 +2,42 @@ const mySelf = {
     heading: 'My Portfolio',
     paragraphs: [
         `
-        Hello! My name is Afzal Imdad, I like creating new things for internet. From a younger age, I have been interested in programming, as a kid most of my time I've spent in inspect element playing with colors and codes generating loops for sending infinite messages, cracking locked screen overflows and many more. so finally at the age of 16 I decided to convert this passion into career.`,
+        Hello! My name is Anusha Tomar, I love websites, and absolutely love making them. From a younger age, I have been interested in programming, as a kid most of my time I've spent in inspect element playing with colors and codes generating loops for sending infinite messages, cracking locked screen overflows and many more. So, finally at the age of 19 I decided to convert this passion into career`,
         `
-        It is a way to become more crafty with my ideas and explore the endless possibilities in the world of programming.`,
+        Currently, I am a 3rd year student, pursuing Bachelors of Technology in Electronics and Communication Engineering from Maharaja Surajmal Institute Of Technology, New Delhi.`,
         `
-        Besides, Programming I'm a passionate photographer and a traveller.
-        A First Pakistani who actually covered most of the 360 google street view of city Karachi with heighest GSV contribution in all over Pakistan it helped more than 42 Million people till now.`,
+        I'm a MERN-stack developer and a Technical Content Writer. 
+
+        I don’t just build projects for my resume—I create solutions with real-world impact. My work focuses on underrepresented issues like mental health and diversity inclusion, ensuring these projects have practical use cases that can truly benefit people.`,
         `
-        Coming back to Programming over the time I've delivered projects to many happy cients over globe and it gave me experience for working with many different people of different culture.
-        From local software house to Fiverr, Fiverr to Upwork and gradually towards international companies.`,
+        Coming back to Programming. Over the time I've delivered projects to many happy cients over globe and it gave me experience for working with many different people of different culture.
+        I've done some decent amount of freelancing, and participated in hackathons as well! `,
         `
-        I am extremely observant when it comes to the breakdown of certain things. As being a crafty person I mostly endup solving too complex issues in less time.
+        Whatever I learn, I write about it—and that's why I love technical writing. It lets me break down complex ideas, share insights, and empower others to grow with the same knowledge.
         `,
         `
-        To test my skills to the fullest would be an amazing experience, an environment where I would learn more and polish my skills more further would be an ideal one for me. Because I believe that there is always room to learn something new and to say no to a new opportunity would not be wise at all.
+        Apart from programming, I am passionate about community work. I have organized over 20 technical events, both online and offline, with more than 1500+ attendees. I enjoy guiding my juniors through these experiences and building stronger connections within the community.
+
         Feel free to communicate.`,
         `
         Over the time I've specialized in many technologies some of them are...
         `,
     ],
     techList1: [
-        'JavaScript/TypeScript',
-        'React.js/Native',
-        'Express.js',
-        'Node.js',
-        'Firestore',
-        'MongoDB'
+        'HTML',
+        'Vanilla CSS',
+        'Tailwind CSS',
+        'JavaScript',
+        'React JS'
     ],
     techList2: [
-        'Web3.js',
-        'Solidity',
-        'Ionic',
-        'Cordova',
-        'PWA/SPA',
-        'AWS',
+        'Node.js',
+        'Express.js',
+        'MongoDB',
+        'SQL',
+        'AWS'
     ],
-    image: '/assets/profile.jpg',
+    image: '/assets/profile.png',
 }
 
 export default mySelf
