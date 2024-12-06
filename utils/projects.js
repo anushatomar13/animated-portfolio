@@ -29,7 +29,7 @@ const projects = {
         },
         {
             image: '/assets/projects/aiaudio.png',
-            label: 'AI Audio Summarizer',
+            title: 'AI Audio Summarizer',
             description: 'Built a user-friendly audio summarization web app with Streamlit and Google’s LLM-powered Gemini API, where users upload audio, and get concise text summaries. It has a response time of less than 10 seconds.',
             techs: [
                 'Streamlit',
